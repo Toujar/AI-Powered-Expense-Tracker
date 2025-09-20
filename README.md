@@ -87,14 +87,6 @@ VITE_API_URL=http://localhost:5000
 VITE_OCR_API_KEY=your_ocr_space_api_key
 ```
 
----
-
-## 📸 Screenshots
-
-*(Add your UI screenshots here)*
-
----
-
 ## 📝 Future Enhancements
 
 * ✅ Dark mode
