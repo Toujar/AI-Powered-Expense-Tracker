@@ -245,6 +245,7 @@ export function Profile() {
         </button>
       </div>
 
+
       {/* App Information */}
       <div className="bg-gradient-to-br from-gray-50 to-gray-100 p-6 rounded-xl border border-gray-200">
         <h3 className="text-lg font-semibold mb-4">About ExpenseTracker</h3>
@@ -257,6 +258,7 @@ export function Profile() {
               <li>• Detailed analytics and insights</li>
               <li>• Advanced search and filtering</li>
               <li>• Real-time notifications</li>
+              <li>• AI-powered budgeting assistant</li>
             </ul>
           </div>
           <div>

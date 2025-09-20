@@ -12,6 +12,8 @@ import { Profile } from './components/Profile';
 import { calculateLimitProgress } from './utils/analytics';
 import { Toaster } from 'react-hot-toast';
 import { v4 as uuidv4 } from 'uuid';
+import { AssistantWidget } from './components/AssistantWidget';
+import './test-env';
 
 function AppContent() {
   const { user, isAuthenticated } = useAuth();
@@ -104,8 +106,9 @@ function AppContent() {
         onPageChange={setCurrentPage}
         unreadNotifications={unreadNotifications}
       />
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 relative">
         {renderCurrentPage()}
+        <AssistantWidget />
       </main>
     </div>
   );
